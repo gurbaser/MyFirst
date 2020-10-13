@@ -1,6 +1,8 @@
 version: 0.2
 
 phases:
+  install:
+    android: 29
   build:
     commands:
       - chmod +x ./gradlew
